@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="divan edebiyatı, divan şiiri, divan şiiri örnekleri, divan edebiyatı nazım şekilleri, gazel örnekleri, kaside örnekleri, mesnevi örnekleri, rubai örnekleri, şarkı nazım şekli, terkib-i bend, terci-i bend, tuyuğ, kıt’a, divan şairleri, Fuzuli, Baki, Nedim, Nef’i, divan şiiri inceleme, Osmanlı edebiyatı" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divan Şiiri </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/divanSiiri.styles.css" asp-append-version="true" />
+    <link href="/img/icon.png" rel="website icon" />
+    <style>
+        .header {
+            background: url(../img/header-bg.jpg) repeat-x;
+        }
+        body {
+            background: #e5dcb5;
+        }
+
+        .footer {
+            background: url(../img/footer-bg.jpg) repeat-x top
+        }
+        .title{
+            font-size:40px;
+        }
+
+       
+        /* Dropdown menü başlangıç durumu */
+        ul#nav1 li ul {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            position: absolute;
+            background-color: #e5dcb5;
+            z-index: 1;
+            transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s linear 0.5s;
+            /* visibility 0.5s gecikmeli gizlenir */
+        }
+
+        ul#nav1 li:hover ul {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s linear 0s;
+            /* hover olduğunda visibility anında aktif olur */
+        }
+
+        /* site.css (veya bundle’a dahil ettiğin ana CSS) */
+        .poem-line {
+            white-space: nowrap; /* Tek satır */
+            overflow: hidden; /* Taşanı gizle */
+            display: block; /* Güvenli kutu davranışı */
+            width: 100%; /* Bulunduğu kolona göre genişlesin */
+            line-height: 1.2; /* Sıkı ama okunur satır yüksekliği */
+            transition: opacity .15s ease-out;
+        }
+
+        .poem-line.ready {
+            opacity: 1; /* Fit sonrası görünür yap */
+        }
+
+
+        .dznlm p {
+            margin-left: 30px;
+            text-align: justify;
+            text-align-last: left;
+        }
+
+
+        .dznlm ul li p {
+            font-size: 20px;
+        }
+
+        .sair, .sair strong {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .nazimSekilleri {
+            width: 223px;
+        }
+
+        .icerik {
+            padding: 15px;
+        }
+
+        .title {
+            padding-top: 5px;
+        }
+
+       /*  table {
+            margin-left: 45px;
+            border-collapse: collapse;
+        } */
+
+        th {
+            text-align: center;
+        }
+        .table-bordered{
+            border: 3px solid black;
+        }
+/* 
+        th, td {
+            border: 3px solid black;
+            padding: 5px;
+        } */
+
+        .ortala {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .odd-post {
+            width: 500px;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            padding-left:50px;
+        }
+
+        .even-post {
+            width: 500px;
+            float: right;
+            margin-bottom: 15px;
+            font-weight: bold;
+            padding-right:50px;
+        }
+
+        div#content-1 div.odd-post p, div#content-1 div.even-post p {
+            margin-top: 10px;
+        }
+
+        div#content-1 div.post-header {
+            margin: 15px 0;
+        }
+
+        div#content-1 div.post-header span.category {
+            display: block;
+            margin: 20px 0;
+        }
+
+        div#content-1 div.post-meta {
+            margin-top: 15px;
+        }
+        .btnw{
+            width:180px !important;
+        }
+        .center-justified,.temsilciler {
+            text-align: justify;
+            text-align-last: left;
+        }
+        .nazimSekilleri, .nazimOrnekleri{
+            list-style:none;
+        }
+        .btn{
+            border: 1px solid black;
+        }
+
+    </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V013BL2MP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-0V013BL2MP');
+    </script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand title" asp-area="" asp-controller="Home" asp-action="Index">Divan Şiiri</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul id="nav1" class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-dark">Divan Şiiri Nazım Şekilleri</a>
+                            <ul class="dropdown nazimSekilleri">
+                                <li><a href="/NazimSekilleri/Gazel" class="nav-link text-dark">Gazel</a></li>
+                                <li><a href="/NazimSekilleri/Kaside" class="nav-link text-dark">Kaside</a></li>
+                                <li><a href="/NazimSekilleri/Mesnevi" class="nav-link text-dark">Mesnevi</a></li>
+                                <li><a href="/NazimSekilleri/Rubai" class="nav-link text-dark">Rubai</a></li>
+                                <li><a href="/NazimSekilleri/Tuyug" class="nav-link text-dark">Tuyuğ</a></li>
+                                <li><a href="/NazimSekilleri/Murabba" class="nav-link text-dark">Murabba</a></li>
+                                <li><a href="/NazimSekilleri/Sarki" class="nav-link text-dark">Şarkı</a></li>
+                                <li><a href="/NazimSekilleri/TekribiBent" class="nav-link text-dark">Terkib-i Bent</a></li>
+                                <li><a href="/NazimSekilleri/TerciiBent" class="nav-link text-dark">Terci-i Bent</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu">
+                            <a href="#" class="nav-link text-dark">Divan Şiiri Örnekleri</a>
+                            <ul class="dropdown nazimOrnekleri">
+                                <li><a href="/NazimOrnekleri/GazelOrnek" class="nav-link text-dark">Gazel Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/KasideOrnek" class="nav-link text-dark">Kaside Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/MesneviOrnek" class="nav-link text-dark">Mesnevi Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/RubaiOrnek" class="nav-link text-dark">Rubai Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/TuyugOrnek" class="nav-link text-dark">Tuyuğ Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/MurabbaOrnek" class="nav-link text-dark">Murabba Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/SarkiOrnek" class="nav-link text-dark">Şarkı Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/TekribiBentOrnek" class="nav-link text-dark">Terkib-i Bent Örneği</a></li>
+                                <li><a href="/NazimOrnekleri/TerciiBentOrnek" class="nav-link text-dark">Terci-i Bent Örneği</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted footer">
+        <div class="container">
+            &copy; 2025 - Divan Şiiri
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.3.7/fitty.min.js"></script>
+
+    <script>
+        // Sayfa ve fontlar hazır olduğunda çalıştır.
+        // Modern tarayıcılar için font yüklenmesini beklemek daha isabetli:
+        const initFitty = () => {
+          // Tüm şiir satırlarında Fitty’yi çalıştır
+          const fitties = fitty('.poem-line', {
+            minSize: 10,  // okunabilirlik alt sınırı (px)
+            maxSize: 40   // tasarımına göre üst sınır (px)
+            // multiLine gerekmez; zaten nowrap kullanıyoruz
+          });
+
+          // Görünür yap
+          document.querySelectorAll('.poem-line').forEach(el => el.classList.add('ready'));
+
+          // (Gerekirse) görünürlük değişimlerinde/sekme geçişlerinde yeniden uydur:
+          // window.addEventListener('resize', () => fitties.forEach(f => f.fit()));
+        };
+
+        // Fontlar tam yüklendiyse daha stabil sonuç verir
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(initFitty);
+        } else {
+          // Eski tarayıcılar için güvenli yaklaşım
+          window.addEventListener('load', initFitty);
+        }
+    </script>
+
+</body>
+</html>
