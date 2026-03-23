@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\muham\Desktop\divanSiiri\divanSiiri\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2025-04-21T18:11:40.9138902Z||;True|2025-04-13T20:09:18.5884134+03:00||;True|2025-04-13T00:56:57.2928223+03:00||;True|2025-04-12T23:52:47.7760417+03:00||;</History>
+    <_PublishTargetUrl>C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2026-03-23T11:51:59.1936262Z||;True|2025-04-21T21:11:40.9138902+03:00||;True|2025-04-13T20:09:18.5884134+03:00||;True|2025-04-13T00:56:57.2928223+03:00||;True|2025-04-12T23:52:47.7760417+03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

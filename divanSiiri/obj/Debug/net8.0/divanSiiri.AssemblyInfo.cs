@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("divanSiiri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a2011072594b5cc3829be769e44482a77d85a2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("divanSiiri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("divanSiiri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

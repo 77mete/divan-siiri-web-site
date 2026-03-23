@@ -98,3 +98,4 @@ C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\E
 C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Debug\net8.0\divanSiiri.pdb
 C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Debug\net8.0\divanSiiri.genruntimeconfig.cache
 C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Debug\net8.0\ref\divanSiiri.dll
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Debug\net8.0\divanSiiri.sourcelink.json

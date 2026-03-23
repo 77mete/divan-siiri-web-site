@@ -1,0 +1,7 @@
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\divanSiiri.exe
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\divanSiiri.dll
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\divanSiiri.deps.json
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\divanSiiri.runtimeconfig.json
+C:\Users\muham\Desktop\Yazılım-Tasarım-Proje\Projeler-Denemeler\HTML-CSS-JS\Edebiyat Proje-Divan Şiiri\divanSiiri\divanSiiri\obj\Release\net8.0\PubTmp\Out\divanSiiri.pdb
